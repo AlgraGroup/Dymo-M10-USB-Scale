@@ -1,8 +1,11 @@
+# Code to read weight from a Dymo M5/M10 scale
+#Original code from:
+#https://steventsnyder.com/reading-a-dymo-usb-scale-using-python/
+#Alex Lugo Reading USB in pyton, https://www.youtube.com/watch?v=xfhzbw93rzw for python 3
+#Pio Baettig 2024
+
 import usb.core
 import usb.util
-#https://steventsnyder.com/reading-a-dymo-usb-scale-using-python/
-#Alex Lugo Reading USB in pyton
-#https://www.youtube.com/watch?v=xfhzbw93rzw
 
 def find_scale():
     Dymo_VENDOR_ID = 0x0922
