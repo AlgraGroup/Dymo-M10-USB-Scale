@@ -1,4 +1,9 @@
 # Dymo-M10-USB-Scale
+The original code is from 
+https://steventsnyder.com/reading-a-dymo-usb-scale-using-python/
+
+Alex Lugo Reading USB in pyton (https://www.youtube.com/watch?v=xfhzbw93rzw) helped me to port the code to python 3
+
 Python code to read the weight from a Dymo M10 USB scale. Works under Linux
 
 
